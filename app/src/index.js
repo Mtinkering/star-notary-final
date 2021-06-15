@@ -55,6 +55,16 @@ const App = {
       App.setStatus("Error in finding star name");
     }
   },
+
+  xfer: async function () {
+    const to = document.getElementById("xferTo").value;
+    const tokenId = document.getElementById("tokenId").value;
+    try {
+      this.meta.methods.transferStar(to, tokenId).send({ from: this.account });
+    } catch (e) {
+      console.log(e);
+    }
+  },
 };
 
 window.App = App;
