@@ -1,4 +1,5 @@
-Truffle version: v5.3.3
-openzeppelin-solidity: 2.3
-ERC-721 Token Name: STAR NOTARY
-ERC-721 Token Symbol: REKT
+- Truffle version: v5.3.3
+- openzeppelin-solidity: 2.3
+- ERC-721 Token Name: STAR NOTARY
+- ERC-721 Token Symbol: REKT
+- hash: https://rinkeby.etherscan.io/tx/0xcc9a24e6c63ba40ac95e88814df424046e3d67219077b5343291b9a8b681192d
